@@ -1,0 +1,464 @@
+{
+  "USER": {
+    "TEMPLATE": {
+      "id": "",
+      "password": "",
+      "name": "",
+      "abstract": "",
+      "keyword": [],
+      "detail": "",
+      "title": "",
+      "company": "",
+      "education": "",
+      "website": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "type": 0,
+      "capital": 0.0,
+      "netCapital": 0.0,
+      "credit": 0,
+      "refer": "",
+      "legal": 0,
+      "logo": "https://buttondata.oss-cn-shanghai.aliyuncs.com/user.png",
+      "authority": {
+        "wechat": "",
+        "linkedin": "",
+        "google": "",
+        "facebook": ""
+      }
+    },
+    "TYPE": {
+      "expert": 1,
+      "investor": 2,
+      "service": 4,
+      "government": 8,
+      "entrepreneur": 16,
+      "angel": 32,
+      "competitor": 64,
+      "judges": 128,
+      "fa": 256,
+      "admin": 1073741824,
+      "group": 2147483648
+    }
+  },
+  "PROJECT": {
+    "TEMPLATE": {
+      "id": "",
+      "name": "",
+      "address": "",
+      "keyword": [],
+      "creatorId": "",
+      "referral": "",
+      "logo": "",
+      "banner": "",
+      "abstract": "",
+      "detail": {
+        "market": "",
+        "introduction": "",
+        "team": "",
+        "product": "",
+        "business": "",
+        "grant": ""
+      },
+      "stage": 10,
+      "website": "",
+      "evaluation": 0.0,
+      "phone": "",
+      "askFor": 0.0,
+      "email": "",
+      "share": 0.0,
+      "time": 0,
+      "credit": 0
+    },
+    "STAGE": {
+      "seed": 0,
+      "angel": 1,
+      "a": 2,
+      "b": 3,
+      "c": 4,
+      "d": 5,
+      "e": 6,
+      "listed": 7,
+      "note": 8,
+      "loan": 9,
+      "pre_ipo": 10,
+      "unknown": 11,
+      "acquired": 12
+    }
+  },
+  "USER_USER": {
+    "TEMPLATE": {
+      "id": "",
+      "fromId": "",
+      "toId": "",
+      "name": "",
+      "time": 0,
+      "type": 0,
+      "keyword": [],
+      "credit": 0
+    },
+    "TYPE": {
+      "none": 0,
+      "blacklist": 1,
+      "follow": 2,
+      "friend": 3,
+      "group": 4
+    }
+  },
+  "USER_PROJECT": {
+    "TEMPLATE": {
+      "id": "",
+      "userId": "",
+      "projectId": "",
+      "name": "",
+      "time": 0,
+      "type": 0,
+      "keyword": [],
+      "credit": 0
+    },
+    "TYPE": {
+      "like": 1,
+      "flag": 2,
+      "own": 4,
+      "recommend": 8
+    }
+  },
+  "PERMISSION": {
+    "TEMPLATE": {
+      "id": "",
+      "userId": "",
+      "targetId": "ObjectId here",
+      "permission": 0,
+      "sourceId": "",
+      "credit": 0,
+      "type": 0
+    },
+    "RESOURCE_TYPE": {
+      "user": 0,
+      "project": 1,
+      "project/product": 1,
+      "product": 2,
+      "task": 3,
+      "task/aggregate": 3,
+      "document/task": 3,
+      "document": 4,
+      "review": 5,
+      "review/aggregate": 5,
+      "service": 6,
+      "service/aggregate": 6,
+      "fa": 7,
+      "fa/aggregate": 7,
+      "found": 8,
+      "investment": 9,
+      "comment": 10,
+      "message": 11,
+      "message/aggregate": 11,
+      "message/from": 11,
+      "message/to": 11,
+      "patent": 12,
+      "workflow": 13,
+      "note": 14,
+      "project/note": 14,
+      "user/note": 14,
+      "product/note": 14,
+      "task/note": 14,
+      "note/note": 14
+    },
+    "PERMISSION_TYPE": {
+      "none": 0,
+      "list": 1,
+      "read": 2,
+      "write": 3
+    }
+  },
+  "TASK": {
+    "TEMPLATE": {
+      "id": "",
+      "projectId": "",
+      "creatorId": "",
+      "operatorId": [],
+      "parentId": "",
+      "name": "",
+      "detail": "",
+      "due": 0,
+      "time": 0,
+      "status": 0,
+      "priority": 0,
+      "credit": 0
+    },
+    "STATUS": {
+      "created": 0,
+      "completed": 1,
+      "canceled": 2,
+      "suspended": 3
+    },
+    "PRIORITY": {
+      "unbreak_now": 0,
+      "needs_triage": 1,
+      "high": 2,
+      "normal": 3,
+      "low": 4,
+      "wish_list": 5
+    }
+  },
+  "SERVICE": {
+    "TEMPLATE": {
+      "id": "",
+      "projectId": "",
+      "creatorId": "",
+      "operatorId": [],
+      "name": "",
+      "start": 0,
+      "end": 0,
+      "type": 0,
+      "fee": 0,
+      "detail": {},
+      "credit": 0
+    },
+    "TYPE": {
+      "law": 0,
+      "finance": 1,
+      "market": 2,
+      "fund": 3,
+      "board": 4,
+      "adviser": 5,
+      "incubator": 6,
+      "employee": 7,
+      "education": 8,
+      "government": 9,
+      "interview": 10
+    }
+  },
+  "COMMENT": {
+    "TEMPLATE": {
+      "id": "",
+      "creatorId": "",
+      "targetId": "",
+      "name": "",
+      "detail": "",
+      "time": 0,
+      "type": 0,
+      "credit": 0
+    },
+    "TYPE": {
+      "user": 0,
+      "project": 1,
+      "product": 2,
+      "task": 3,
+      "comment": 4,
+      "fa": 5
+    }
+  },
+  "DOCUMENT": {
+    "TEMPLATE": {
+      "id": "",
+      "creatorId": "",
+      "targetId": [],
+      "name": "",
+      "mime": "image/png",
+      "time": 0,
+      "type": 0,
+      "url": "",
+      "credit": 0
+    },
+    "TYPE": {
+      "user": 0,
+      "project": 1,
+      "product": 2,
+      "task": 3,
+      "comment": 4,
+      "fa": 5
+    }
+  },
+  "FA": {
+    "TEMPLATE": {
+      "id": "",
+      "projectId": "",
+      "creatorId": "",
+      "operatorId": [],
+      "name": "",
+      "start": 0.0,
+      "end": 0.0,
+      "status": 0,
+      "fee": {
+        "creator": {
+          "percent": 0.0,
+          "equity": 0.0,
+          "fee": 0.0
+        },
+        "platform": {
+          "percent": 0.0,
+          "equity": 0.0,
+          "fee": 0.0
+        },
+        "operator": []
+      }
+    },
+    "STATUS": {
+      "created": 0,
+      "completed": 1,
+      "canceled": 2,
+      "suspended": 3
+    }
+  },
+  "FOUND": {
+    "TEMPLATE": {
+      "id": "",
+      "userId": "",
+      "projectId": "",
+      "detail": "",
+      "time": 0,
+      "role": "",
+      "credit": 0
+    }
+  },
+  "INVESTMENT": {
+    "TEMPLATE": {
+      "id": "",
+      "projectId": "",
+      "userId": "",
+      "name": "",
+      "time": 0,
+      "amount": 0.0,
+      "evaluation": 0.0,
+      "share": 0.0,
+      "detail": "",
+      "url": "",
+      "credit": 0
+    }
+  },
+  "MESSAGE": {
+    "TEMPLATE": {
+      "id": "",
+      "fromId": "",
+      "toId": "",
+      "status": 0,
+      "name": "",
+      "detail": "",
+      "time": 0,
+      "credit": 0
+    },
+    "STATUS": {
+      "draft": 0,
+      "sent": 1,
+      "read": 2,
+      "bookmarked": 3
+    }
+  },
+  "NOTE": {
+    "TEMPLATE": {
+      "id": "",
+      "creatorId": "",
+      "targetId": "",
+      "name": "",
+      "detail": "",
+      "time": 0,
+      "type": 0,
+      "credit": ""
+    },
+    "TYPE": {
+      "user": 0,
+      "project": 1,
+      "product": 2,
+      "task": 3,
+      "comment": 4,
+      "fa": 5
+    }
+  },
+  "PATENT": {
+    "TEMPLATE": {
+      "id": "",
+      "targetId": "",
+      "title": "",
+      "time": 0,
+      "type": 0,
+      "abstract": "",
+      "detail": "",
+      "credit": 0
+    },
+    "TYPE": {
+      "user": 0,
+      "project": 1
+    }
+  },
+  "PRODUCT": {
+    "TEMPLATE": {
+      "id": "",
+      "projectId": "",
+      "name": "",
+      "logo": "https://buttondata.oss-cn-shanghai.aliyuncs.com/product.png",
+      "abstract": "",
+      "detail": {
+        "market": "",
+        "introduction": "",
+        "technique": ""
+      },
+      "time": 0,
+      "price": {
+        "cost": 0.0,
+        "exw": 0.0,
+        "market": 0.0
+      },
+      "type": [],
+      "status": "",
+      "license": [],
+      "credit": 0
+    }
+  }，
+  "REVIEW": {
+    "TEMPLATE": {
+      "id": "",
+      "projectId": "",
+      "creatorId": "",
+      "operatorId": "",
+      "name": "",
+      "rating": 0,
+      "time": 0,
+      "detail": {
+        "team": {
+          "rating": 0,
+          "detail": ""
+        },
+        "technique": {
+          "rating": 0,
+          "detail": ""
+        },
+        "novelty": {
+          "rating": 0,
+          "detail": ""
+        },
+        "market": {
+          "rating": 0,
+          "detail": ""
+        }
+      }
+    }
+  },
+  "WORKFLOW": {
+    "TEMPLATE": {
+      "id": "",
+      "name": "",
+      "creatorId": "",
+      "detail": {},
+      "credit": 0
+    }
+  },
+  "PRINT": {
+    "FILE_FORMAT": {
+      "pdf": 0,
+      "docx": 1,
+      "xlsx": 2,
+      "pptx": 3
+    },
+    "TARGET_TYPE": {
+      "user": 0,
+      "project": 1,
+      "product": 2,
+      "task": 3,
+      "workflow": 4,
+      "comment": 5,
+      "fa": 6
+    }
+  }
+}

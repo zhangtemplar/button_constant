@@ -1,0 +1,20 @@
+{
+  "name": "button-constant",
+  "version": "1.0.0",
+  "description": "This package holds the constant shared the front end and back end of Button Tech.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@phab.buttontech.net:20022/source/bc.git"
+  },
+  "keywords": [
+    "Button",
+    "Tech",
+    "constant"
+  ],
+  "author": "Qiang Zhang <qiang.zhang@buttoninvest.com> (http://www.kouwork.com/)",
+  "license": "ISC"
+}
