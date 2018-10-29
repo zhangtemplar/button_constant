@@ -163,7 +163,8 @@
       "user/note": 14,
       "product/note": 14,
       "task/note": 14,
-      "note/note": 14
+      "note/note": 14,
+      "user/misc": 15
     },
     "PERMISSION_TYPE": {
       "none": 0,
