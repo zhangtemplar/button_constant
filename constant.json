@@ -42,6 +42,17 @@
       "group": 2147483648
     }
   },
+  "GROUP": {
+    "TEMPLATE": {
+      "id": "",
+      "credit": 0,
+      "name": "",
+      "abstract": "",
+      "managerId": [],
+      "memberId": [],
+      "creatorId": ""
+    }
+  },
   "PROJECT": {
     "TEMPLATE": {
       "id": "",
