@@ -164,7 +164,9 @@
       "product/note": 14,
       "task/note": 14,
       "note/note": 14,
-      "user/misc": 15
+      "user/misc": 15,
+      "group": 16,
+      "group/aggregate": 16
     },
     "PERMISSION_TYPE": {
       "none": 0,
@@ -459,7 +461,8 @@
       "task": 3,
       "workflow": 4,
       "comment": 5,
-      "fa": 6
+      "fa": 6,
+      "group": 7
     }
   }
 }
