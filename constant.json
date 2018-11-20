@@ -474,7 +474,15 @@
       "workflow": 4,
       "comment": 5,
       "fa": 6,
-      "group": 7
+      "group": 7,
+      "document": 8,
+      "found": 9,
+      "investment": 10,
+      "message": 11,
+      "note": 12,
+      "patent": 13,
+      "review": 14,
+      "service": 15
     }
   }
 }
