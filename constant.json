@@ -482,7 +482,8 @@
       "note": 12,
       "patent": 13,
       "review": 14,
-      "service": 15
+      "service": 15,
+      "user_user": 16
     }
   }
 }
