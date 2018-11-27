@@ -484,7 +484,8 @@
       "review": 14,
       "service": 15,
       "user_user": 16,
-      "permission": 17
+      "permission": 17,
+      "user_project": 18
     }
   }
 }
