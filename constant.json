@@ -49,6 +49,14 @@
       "name": "",
       "abstract": "",
       "logo": "",
+      "keyword": [],
+      "website": "",
+      "email": "",
+      "phone": "",
+      "address": "",
+      "capital": 0,
+      "netCapital": 0,
+      "detail": {},
       "managerId": [],
       "memberId": [],
       "creatorId": ""
@@ -487,5 +495,8 @@
       "permission": 17,
       "user_project": 18
     }
+  },
+  "AUTH": {
+    "WHITELIST": ["verification", "register", "login", "link", "log", "password"]
   }
 }
