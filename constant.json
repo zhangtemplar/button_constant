@@ -497,6 +497,6 @@
     }
   },
   "AUTH": {
-    "WHITELIST": ["verification", "register", "login", "link", "log", "password"]
+    "WHITELIST": ["verification", "register", "login", "link", "log", "password", "policy"]
   }
 }
