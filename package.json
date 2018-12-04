@@ -1,6 +1,6 @@
 {
   "name": "button-constant",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "This package holds the constant shared the front end and back end of Button Tech.",
   "main": "index.js",
   "scripts": {
