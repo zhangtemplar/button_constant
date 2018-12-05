@@ -316,7 +316,9 @@
           "fee": 0.0
         },
         "operator": []
-      }
+      },
+      "detail": "",
+      "credit": 0
     },
     "STATUS": {
       "created": 0,
