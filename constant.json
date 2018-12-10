@@ -18,7 +18,7 @@
       "capital": 0.0,
       "netCapital": 0.0,
       "credit": 0,
-      "refer": "",
+      "refer": "00000000000000000000000000000000",
       "legal": "",
       "logo": "https://buttondata.oss-cn-shanghai.aliyuncs.com/user.png",
       "authority": {
@@ -70,7 +70,7 @@
       "address": "",
       "keyword": [],
       "creatorId": "",
-      "referral": "",
+      "referral": "00000000000000000000000000000000",
       "logo": "",
       "banner": "",
       "abstract": "",
@@ -200,10 +200,10 @@
   "TASK": {
     "TEMPLATE": {
       "id": "",
-      "projectId": "",
+      "projectId": "11111111111111111111111111111111",
       "creatorId": "",
       "operatorId": [],
-      "parentId": "",
+      "parentId": "33333333333333333333333333333333",
       "name": "",
       "detail": "",
       "due": 0,
@@ -225,7 +225,8 @@
       "normal": 3,
       "low": 4,
       "wish_list": 5
-    }
+    },
+    "RESERVED_ID": "22222222222222222222222222222222"
   },
   "SERVICE": {
     "TEMPLATE": {
@@ -469,7 +470,8 @@
       "creatorId": "",
       "detail": {},
       "credit": 0
-    }
+    },
+    "RESERVED_ID": "33333333333333333333333333333333"
   },
   "PRINT": {
     "FILE_FORMAT": {
