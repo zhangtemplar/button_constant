@@ -503,6 +503,7 @@
     }
   },
   "AUTH": {
-    "WHITELIST": ["verification", "register", "login", "link", "log", "password", "policy", "project"]
+    "WHITELIST": ["verification", "register", "login", "link", "log", "password", "policy", "project",
+      "permission/grant", "group/accept"]
   }
 }
